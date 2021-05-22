@@ -1,0 +1,87 @@
+.app_header {
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+    border: 2px solid rgb(163, 161, 161);
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.app_city {
+    display: inline-block;
+    background-color: transparent;
+    position: relative;
+    width: 22%;
+}
+
+.city-options {
+    width: 100%;
+    height: 50px;
+    padding-left: 16px;
+    padding-right: 15px;
+    font-size: 1.18rem;
+    font-weight: 600;
+    position: relative;
+    font-family: Arial;
+    background-color: rgba(255, 255, 255, 0.384);
+    border: 1px solid rgba(90, 80, 80, 0.342);
+    border-radius: 7px;
+    outline: none;
+    color: rgb(31, 28, 28);
+    position: absolute;
+    left: 30px;
+}
+
+.page-set {
+    width: 40%;
+    margin: auto;
+    position: relative;
+}
+
+.pl {
+    position: absolute;
+    left: 2px
+}
+
+.po {
+    position: absolute;
+    left: 2px;
+}
+
+.app_search {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 12px;
+}
+
+/* Branch part */
+
+.branch-box {
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.favourite {
+    padding: 2px 1px 2px 16px;
+    position: absolute;
+    top: 20px;
+}
+
+.bank-box {
+    width: 90%;
+    padding: 30px;
+    margin: 100px auto;
+    box-shadow: 3px 2px 4px rgba(54, 54, 61, 0.5);
+}
+
+.details {
+    width: 70%;
+    margin: 100px auto;
+}
+
+span {
+    padding-left: 5px;
+}
+
