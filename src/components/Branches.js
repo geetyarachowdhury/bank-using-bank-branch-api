@@ -10,7 +10,7 @@ function Branches() {
     const [banks, setBanks] = React.useState([]);
 
     React.useEffect(() => {
-      axios.get('http://localhost:5000/api/banks')
+      axios.get('https://obscure-inlet-83084.herokuapp.com/')
       .then (response => {
        console.log(response.data);
        setBanks(response.data)})
