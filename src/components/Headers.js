@@ -32,7 +32,7 @@ function Headers() {
     
 
     React.useEffect(() => {
-        axios.get("http://localhost:5000/api")
+        axios.get("https://obscure-inlet-83084.herokuapp.com/")
         .then (response => {
          console.log(response.data);
          setCity(response.data)})
@@ -45,7 +45,7 @@ function Headers() {
 
     React.useEffect(() => {
       axios
-        .get(`http://localhost:5000/api/branches?q=${encodeURIComponent(search.q)}&page=${encodeURIComponent(limit.l)}&offset=${encodeURIComponent(offset.o)}`)
+        .get(`https://obscure-inlet-83084.herokuapp.com/api/branches?q=${encodeURIComponent(search.q)}&page=${encodeURIComponent(limit.l)}&offset=${encodeURIComponent(offset.o)}`)
         .then((res) => {
           setBranches(res.data);
         })
